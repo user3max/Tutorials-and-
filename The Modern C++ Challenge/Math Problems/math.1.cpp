@@ -7,9 +7,7 @@ int sumdiv(int limit)
 
 	while(n <= limit)
 	{
-		if(n % 3 == 0)
-			sum = n + sum;
-		if(n % 5 == 0)
+		if(n % 3 == 0 || n % 5 == 0)
 			sum = n + sum;
 		n++;
 	}
