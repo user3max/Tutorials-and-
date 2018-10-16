@@ -1,4 +1,4 @@
-NAME = Polymorph
+NAME = polymorph
 FLAGS = -Wall -Werror -Wextra
 SRC = main.cpp Sorcerer.cpp Victim.cpp Peon.cpp
 CC = clang++
