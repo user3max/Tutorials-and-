@@ -1,6 +1,6 @@
-NAME = iter
+NAME = array
 FLAGS = -Wall -Werror -Wextra
-SRC = iter.cpp
+SRC = main.cpp
 CC = clang++
 OSRC =	$(SRC:.cpp=.o)
 
